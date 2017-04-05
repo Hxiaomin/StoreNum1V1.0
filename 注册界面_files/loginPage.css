@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+}
+div{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-size: small;
+    font-weight: lighter;
+}
+p{
+    font-size: small;
+}
+body header{
+    width: 1200px;
+    height: 100px;
+    border-bottom: solid thin black;
+    margin:0px auto;
+}
+body header div[name=right]{
+    float: right;
+    margin: 10px 30px;
+    width: 320px;
+    text-align: left;
+}
+body header div[name=right] div[name=help]{
+    border:thin solid whitesmoke;
+    width: 120px;
+    float: right;
+}
+body header div[name=right] div[name=help] img{
+    vertical-align: middle;
+}
+body header div[name=right] div[name=help] span{
+    font-weight: inherit;
+    font-size: inherit;
+    vertical-align: middle;
+}
+div[name=body]{
+    width: 1200px;
+    height: 600px;
+    margin:0 auto;
+}
+div[name=body] div[name=mainPart]{
+    width: 1000px;
+    height: 550px;
+    margin: 0px auto;
+}
+div[name=body] div[name=mainPart] img{
+    float: left;
+    margin-top: 50px;
+}
+div[name=body] div[name=mainPart] div[name=login]{
+    width: 480px;
+    margin-top: 80px;
+}
+div[name=body] div[name=mainPart] div[name=login] div.input{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    border: solid thin whitesmoke;
+}
+div[name=body] div[name=mainPart] div[name=login] div.input input{
+    border: none;
+    height: 48px;
+    width: 260px;
+    float: right;
+}
+div[name=body] div[name=mainPart] div[name=login] div.input img{
+    position: absolute;
+    top: -40px;
+    left: 10px;
+}
+div[name=body] div[name=mainPart] div[name=login] div[name=setting]{
+    width: 300px;
+    height: 21px;
+    margin: 30px 0;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+div[name=body] div[name=mainPart] div[name=login] div[name=setting] div#input{
+    float: left;
+}
+input[name=submit]{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5%;
+    background-color: red;
+    margin-bottom: 20px;
+}
+div[name=company]{
+    margin-top: 10px;
+    width: 300px;
+    height: 35px;
+    position: relative;
+}
+
+div[name=mainPart] div[name=login] div[name=company] a.abase{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin: 2px;
+}
+div[name=mainPart] div[name=login] div[name=company] a[name=contract1]{
+    background: url("../../../img/StoreNum1/images/l_1.png") no-repeat;
+    background-size: 35px 35px;
+}
+div[name=mainPart] div[name=login] div[name=company] a[name=contract2]{
+    background: url("../../../img/StoreNum1/images/l_2.png") no-repeat;
+    background-size: 35px 35px;
+}
+div[name=mainPart] div[name=login] div[name=company] a[name=contract3]{
+    background: url("../../../img/StoreNum1/images/l_3.png") no-repeat;
+    background-size: 35px 35px;
+}
+div[name=mainPart] div[name=login] div[name=company] a[name=contract4]{
+    background: url("../../../img/StoreNum1/images/l_4.png") no-repeat;
+    background-size: 35px 35px;
+}
+div[name=mainPart] div[name=login] div[name=company] a[name=contract1]:hover{
+    background: url("../../../img/StoreNum1/images/l_1_h.png") no-repeat;
+    background-size: 35px 35px;
+}
+div[name=mainPart] div[name=login] div[name=company] a[name=contract2]:hover{
+    background: url("../../../img/StoreNum1/images/l_2_h.png") no-repeat;
+    background-size: 35px 35px;
+}
+div[name=mainPart] div[name=login] div[name=company] a[name=contract3]:hover{
+    background: url("../../../img/StoreNum1/images/l_3_h.png") no-repeat;
+    background-size: 35px 35px;
+}
+div[name=mainPart] div[name=login] div[name=company] a[name=contract4]:hover{
+    background: url("../../../img/StoreNum1/images/l_4_h.png") no-repeat;
+    background-size: 35px 35px;
+}
+a#unique{
+    float: right;
+    height: 35px;
+    line-height: 35px;
+}
+a#unique span{
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+a#unique img{
+    width: 15px ;
+    height: 12px;
+    margin: 10px 0px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+

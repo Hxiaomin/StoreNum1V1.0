@@ -1,0 +1,35 @@
+body div[name=body]{
+    padding: 40px;
+}
+body div[name=body] input.i1{
+    width: 260px;
+    height: 40px;
+    margin: 5px 0px;
+}
+body div[name=body] div[name=verify]{
+    width: 1180px;
+    height: 40px;
+    margin: 5px auto;
+    text-align: center;
+}
+body div[name=body] div[name=verify] input{
+    width: 175px;
+    height: 40px;
+}
+
+body div[name=body] div[name=verify] a{
+    display: inline-block;
+    background-color: red;
+    color: whitesmoke;
+    height: 44px;
+    line-height: 44px;
+    width: 80px;
+    font-size: small;
+}
+body div[name=body] input[type=submit]{
+    width: 260px;
+    height: 40px;
+    background-color: red;
+    border:none;
+    border-radius: 5%;
+}

@@ -1,0 +1,201 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+div{
+    display: inline-block;
+    /*border: solid thin white;*/
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+}
+
+/*****************************************/
+/*header style*/
+span{
+    font-size: small;
+    font-weight: lighter;
+}
+header{
+    margin: 0px auto;
+    position: relative;
+}
+header div[name=top]{
+    width: 1280px;
+    border: thin solid #dbdbdb;
+    height: 30px;
+}
+header div[name=top] div[name=address]{
+    height: 30px;
+    float: left;
+}
+header  div[name=top] div[name=address] span{
+    float: left;
+    margin: 7px 0px 7px 10px;
+}
+header  div[name=top] div[name=address] select#selectStyle{
+    display: inline-block;
+    border: none;
+    background: none;
+    font-size: small;
+    font-weight: lighter;
+    margin: 6px;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: lighter;
+}
+a:hover{
+    color: blue;
+}
+header  div[name=top] div[name=right]{
+    float: right;
+    margin: 5px 10px;
+    position: relative;
+}
+div[name=top] div[name=right] ul li{
+    margin-right: 3px;
+    font-size: small;
+    font-weight: lighter;
+}
+div[name=top] div[name=right] ul li.selected{
+    margin: 0px;
+}
+div[name=top] div[name=right] ul li.selected:hover{
+    cursor: pointer;
+}
+div[name=top] div[name=right] ul li.selected div[name=subMenu]{
+    display: none;
+}
+div[name=top] div[name=right] ul li.selected:hover div[name=subMenu]{
+    display: block;
+    cursor: pointer;
+    right: 250px;
+    border: solid thin whitesmoke;
+    position: absolute;
+    bottom: -150px;
+}
+div[name=top] div[name=right] ul li.selected div[name=subMenu] ul li{
+    padding: 10px 20px;
+    display: block;
+}
+div[name=top] div[name=right] ul li[name=server]:hover div[name=subMenu]{
+    display: inline-block;
+    background-color: whitesmoke;
+}
+div[name=top] div[name=right] ul li[name=leftBorder] {
+    border-left:thin solid black ;
+    padding: 0px 3px;
+}
+
+    /*******************************/
+    /*search box*/
+div[name=bodySearch]{
+                      height: 100px;
+                      width: 1280px;
+                      margin-bottom: 20px;
+                  }
+div[name=bodySearch] div[name=logo]{
+    float: left;
+    margin:21px 0px 0px 21px;
+}
+div[name=bodySearch] div[name=search] div[name=hotSales]{
+    display: block;
+}
+div[name=bodySearch] div[name=search]{
+    margin-top: 40px;
+}
+div[name=bodySearch] div[name=search] div[name=sousuo]{
+    background-color: #FF3c3c;
+    height: 39px;
+    color: white;
+    width: 90px;
+    line-height: 39px;
+}
+div[name=bodySearch] div[name=search] input{
+    display: inline-block;
+    outline-style: none;
+    width: 180px;
+    height: 30px;
+    box-sizing: border-box;
+    border: none;
+    background-color: whitesmoke;
+    float: left;
+}
+div[name=bodySearch] div[name=search] div[name=sousuo]:hover{
+    cursor: pointer;
+}
+div[name=bodySearch] div[name=trolley] {
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+div[name=bodySearch] div[name=trolley] img:hover{
+    cursor: pointer;
+}
+
+/*header end*/
+/**************/
+
+
+
+
+/**************************************************/
+/**footer*/
+
+footer div[name=advantage]{
+    width: 1180px;
+}
+footer div[name=advantage] ul li{
+    padding:0px 30px;
+}
+footer div[name=advantage] ul li img{
+    transition: all 0.8s ease-in-out;
+}
+footer div[name=advantage] ul li img:hover{
+    transform: rotate(360deg) scale(1.1);
+}
+footer div[name=advantage] table tr{
+    width: 1180px;
+}
+footer div[name=advantage] table td {
+    font-weight: lighter;
+    font-size: small;
+    padding: 2px 50px;
+    position: relative;
+}
+footer div[name=advantage] table td:hover{
+    color: blue;
+}
+footer div[name=advantage] table td[name=title]{
+    font-weight: inherit;
+    font-size: inherit;
+    padding-bottom: 10px;
+}
+footer div[name=advantage] table td[name=contract] div#abc{
+    width: 200px;
+    height: 223px;
+}
+footer div[name=advantage] table td[name=contract] div#abc a{
+    position: absolute;
+    right: 0px;
+}
+body footer{
+    width: 1180px;
+    margin:5px auto;
+    box-sizing: border-box;
+}
+body footer ul li{
+    margin: 0px 10px;
+}

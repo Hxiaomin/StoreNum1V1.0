@@ -1,0 +1,176 @@
+body div[name=body]{
+    width: 1180px;
+    margin-bottom: 50px;
+}
+body div[name=body] nav{
+    width: 1178px;
+    height: 30px;
+    border-bottom: red solid;
+}
+body div[name=body] nav ul{
+    float: left;
+    width: 1178px;
+}
+body div[name=body] nav ul li{
+    padding: 0px 10px;
+    height: 30px;
+    box-sizing: border-box;
+    float: left;
+}
+body div[name=body] nav ul li a{
+    font-size: inherit;
+    font-weight: inherit;
+}
+body div[name=body] nav ul li#header {
+    padding:5px 20px 0px;
+    background-color: #FF3c3c;
+}
+body div[name=body] nav ul li#header a{
+    color: whitesmoke;
+}
+
+body div[name=body] nav ul li#footer{
+    float: right;
+    font-size: small;
+}
+body div[name=body] nav ul li#footer img{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+body div[name=body] nav ul li#footer a {
+    vertical-align: middle;
+    font-size: small;
+    font-weight: lighter;
+}
+body div[name=body] div[name=directory]{
+    margin-top: 10px;
+    float: left;
+}
+body div[name=body] div[name=directory] ul li a{
+    font-size: small;
+}
+
+body div[name=body] div[name=directory] ul li[name=brand] a{
+    width: 40px;
+    height: 30px;
+    border: thin dotted black;
+    padding: 2px 5px;
+}
+body div[name=body] div[name=classify]{
+    width: 1180px;
+    margin-top: 20px;
+}
+body div[name=body] div[name=classify] ul{
+    list-style: none;
+    width: 1178px;
+    height: 44px;
+    box-sizing: border-box;
+    border: thin dotted black;
+    float: right;
+}
+body div[name=body] div[name=classify] li{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+body div[name=body] div[name=classify] ul li[name=head]{
+    width: 80px;
+    height: 42px;
+    padding: 10px 5px;
+}
+body div[name=body] ul[name=history]{
+    float: left;
+    list-style: none;
+    border:thin dotted black;
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+body div[name=body] ul[name=history] li{
+    display: block;
+    border-bottom: dotted thin black;
+    padding: 5px;
+}
+body div[name=body] ul[name=history] li#head{
+    text-align: left;
+}
+body div[name=body] ul[name=history] li#head img{
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+body div[name=body] ul[name=history] li#head a{
+    float: right;
+}
+body div[name=body] ul[name=condition]{
+    margin-top: 20px;
+    height: 32px;
+    width: 900px;
+    float: left;
+    box-sizing: border-box;
+}
+body div[name=body] ul[name=condition] li{
+    padding: 0px 20px 0px 10px;
+    margin: 2px 0px 3px;
+    float: left;
+    border: dotted thin black;
+    position: relative;
+}
+body div[name=body] ul[name=condition] li:hover{
+    background-color: #FF4E00;
+}
+body div[name=body] ul[name=condition] li:hover a{
+    color:white;
+}
+body div[name=body] ul[name=condition] li img.up{
+    position: absolute;
+    top: 7px;
+    right: 3px;
+}
+body div[name=body] ul[name=condition] li img.down{
+    position: absolute;
+    top: 13px;
+    right: 3px;
+}
+body div[name=body] table{
+    width: 980px;
+    box-sizing: border-box;
+    border-top: dotted thin black;
+}
+body div[name=body] table td{
+    width: 245px;
+    height: 340px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+body div[name=body] table td a ul{
+    width: 235px;
+    height: 30px;
+    border: thin dotted black;
+    box-sizing: border-box;
+}
+
+body div[name=body] table td a ul li{
+    float: left;
+    padding: 5px 0px 0px 5px;
+}
+body div[name=body] table td a ul li.heart{
+    width: 70px;
+    height: 28px;
+    border-right: thin dotted black;
+    box-sizing: border-box;
+}
+body div[name=body] table td a ul li img{
+    vertical-align: middle;
+}
+body div[name=body] table td a ul li.cars{
+    padding-left: 30px;
+}
+body div[name=body] div[name=index]{
+    float: right;
+}
+body div[name=body] div[name=index] ul li{
+    border: thin dotted black;
+    margin: 5px;
+    padding: 3px 5px;
+}

@@ -1,0 +1,440 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+div{
+    display: inline-block;
+    /*border: solid thin white;*/
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+}
+/*****************************************/
+/*header style*/
+span{
+    font-size: small;
+    font-weight: lighter;
+}
+header{
+    margin: 0px auto;
+    width: 1280px;
+    height: 30px;
+    border: thin solid #dbdbdb;
+    position: relative;
+}
+header div[name=address]{
+    height: 30px;
+    float: left;
+}
+header div[name=address] span{
+    float: left;
+    margin: 7px 0px 7px 10px;
+}
+header div[name=address] select#selectStyle{
+    display: inline-block;
+    border: none;
+    background: none;
+    font-size: small;
+    font-weight: lighter;
+    margin: 6px;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: lighter;
+}
+a:hover{
+    color: blue;
+}
+header div[name=right]{
+    float: right;
+    margin: 5px 10px;
+}
+div[name=right] ul li{
+    margin-right: 3px;
+    font-size: small;
+    font-weight: lighter;
+}
+
+div[name=right] ul li.selected div[name=subMenu]{
+    display: none;
+}
+div[name=right] ul li.selected:hover div[name=subMenu]{
+    display: block;
+    cursor: pointer;
+    right: 250px;
+    border: solid thin whitesmoke;
+    position: absolute;
+    bottom: -150px;
+}
+div[name=right] ul li.selected div[name=subMenu] ul li{
+    padding: 10px 20px;
+    display: block;
+}
+div[name=right] ul li[name=server]:hover div[name=subMenu]{
+    display: inline-block;
+    background-color: whitesmoke;
+}
+div[name=right] ul li.selected:hover{
+    cursor: pointer;
+}
+div[name=right] ul li[name=leftBorder] {
+    border-left:thin solid black ;
+    padding: 0px 3px;
+}
+div[name=right] ul li[name=leftBorder] {
+    border-left:thin solid black ;
+    padding: 0px 3px;
+}
+
+/**********************************************************/
+/*search box*/
+div[name=bodySearch]{
+    height: 100px;
+    width: 1280px;
+    margin-bottom: 20px;
+}
+div[name=bodySearch] div[name=logo]{
+    float: left;
+    margin:21px 0px 0px 21px;
+}
+div[name=bodySearch] div[name=search] div[name=hotSales]{
+    display: block;
+}
+div[name=bodySearch] div[name=search]{
+    margin-top: 40px;
+}
+div[name=bodySearch] div[name=search] div[name=sousuo]{
+    background-color: #FF3c3c;
+    height: 39px;
+    color: white;
+    width: 90px;
+    line-height: 39px;
+}
+div[name=bodySearch] div[name=search] input{
+    display: inline-block;
+    outline-style: none;
+    width: 180px;
+    height: 30px;
+    box-sizing: border-box;
+    border: none;
+    background-color: whitesmoke;
+    float: left;
+}
+div[name=bodySearch] div[name=search] div[name=sousuo]:hover{
+    cursor: pointer;
+}
+div[name=bodySearch] div[name=trolley] {
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+div[name=bodySearch] div[name=trolley] img:hover{
+    cursor: pointer;
+}
+
+/*******************************************************************/
+/*bodyStyle*/
+div.size{
+    width:1180px;
+    margin: 10px 0;
+}
+div[name=body]{
+    width: 1180px;
+    overflow: visible;
+}
+                /******************/
+                    /*firstPart*/
+div[name=body] div[name=firstPart] {
+    float: left;
+    color: white;
+    height: 389px;
+    width: 1178px;
+}
+div[name=body] div[name=firstPart] div[name=classify]{
+    width: 215px;
+    float: left;
+    height: 377px;
+}
+div[name=body] div[name=firstPart]  div[name=classify] div[name=navigation]{
+    background-color: #FF3c3c;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    width: 215px;
+    height: 40px;
+    border: none;
+}
+div[name=body] div[name=firstPart] div[name=classify] ul{
+    margin: 0px;
+    list-style: none;
+    float: left;
+    text-align: left;
+    background-color: #c23131;
+    width: 215px;
+    height: 327px;
+    box-sizing: border-box;
+}
+div[name=body] div[name=firstPart]  div[name=classify] ul li{
+    padding: 5px 10px 5px 10px;
+    width: 215px;
+    box-sizing: border-box;
+}
+div[name=body] div[name=firstPart]  div[name=classify] ul li:hover{
+    background-color: #872222;
+}
+div[name=body] div[name=firstPart]  div[name=classify] ul li:hover div[name=cartoon]{
+    transform: translate(8px, 0);
+}
+div[name=body] div[name=firstPart]  div[name=classify] ul li a{
+    color: white;
+}
+div[name=body] div[name=firstPart]  div[name=classify] ul li img[name=direction]{
+    height: 10px;
+    width: 6px;
+    float: right;
+    margin-top: 7px;
+}
+
+div[name=body] div[name=firstPart] div[name=left]{
+    height: 377px;
+    width: 961px;
+    box-sizing: border-box;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=title]{
+    height: 40px;
+    width: 963px;
+    border: none;
+    border-bottom: solid #fd3f49;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=title] ul{
+    padding-left: 20px;
+    width: 960px;
+    box-sizing: border-box;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=title] ul li{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=title] ul li a{
+    font-weight: 500;
+    font-size: large;
+}
+
+div[name=body] div[name=firstPart] div[name=left] div[name=title] ul li[name=right]{
+    font-size: smaller;
+    font-weight: 100;
+    color: black;
+    float: right;
+    padding: 5px;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content]{
+    width: 963px;
+    height: 335px;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=post]{
+    height: 333px;
+    width: 661px;
+    padding: 0px 15px;
+    position: relative;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=post]:hover div[name=direction]{
+    width: 32px;
+    height: 60px;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=post] ul{
+    position: absolute;
+    bottom: 20px;
+    right: 275px;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=post] ul li{
+    height: 21px;
+    width: 21px;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=post] ul li:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=post] div[name=direction]{
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: 140px;
+}
+#left{
+    right: 612px;
+}
+#right{
+    right: 15px;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=quickMess]{
+    height:  333px;
+    width: 300px;
+    float: right;
+    border: dotted thin whitesmoke;
+    border-top: none;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=quickMess] dl dt.dtStyle{
+    color: black;
+    text-align: left;
+    border-bottom: dotted thin black;
+    border-top: dotted thin black;
+    padding-left: 5px;
+}
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=quickMess] dl dd a{
+    font-weight: lighter;
+    font-size: small;
+}
+
+div[name=body] div[name=firstPart] div[name=left] div[name=content] div[name=quickMess] dl dd.styled{
+    text-align: left;
+    padding-left: 15px;
+}
+
+/************************/
+/*second part*/
+
+div[name=body] div[name=secondPart]{
+    width: 1180px;
+    box-sizing: border-box;
+    height: 215px;
+}
+div[name=body] div[name=secondPart] div[name=productDetail]{
+    height: 215px;
+    width: 946px;
+    float: right;
+}
+div[name=body] div[name=secondPart] div[name=productDetail] span{
+    font-size: small;
+    font-weight: lighter;
+}
+div[name=body] div[name=secondPart] div[name=productDetail] div[name=detail]{
+    height: 215px;
+    width: 236px;
+    position: relative;
+    border: thin dotted whitesmoke;
+    float: left;
+}
+div[name=body] div[name=secondPart] div[name=productDetail] div[name=detail]:hover{
+    cursor: pointer;
+    box-shadow:0 5px 5px rgba(0,0,0,0.1), 0 0 10px 0 rgba(0,0,0,0.2);
+}
+div[name=body] div[name=secondPart] div[name=productDetail] div[name=detail] div[name=hotSale]{
+    position: absolute;
+    top: 5px;
+    right: 150px;
+}
+
+/**floor***/
+
+div.floor{
+    margin: 10px 0;
+}
+div.floor div.header{
+    width: 1180px;
+}
+div.floor div[name=detail] div[name=upon]{
+    width: 1180px;
+    height: 31px;
+}
+div.floor  div[name=detail] div[name=upon] ul li{
+    padding: 5px;
+}
+div.floor  div[name=detail] div[name=product]{
+    width: 1180px;
+    border-top: red solid;
+}
+div.floor  div[name=detail] div[name=product] div[name=side]{
+    width: 215px;
+    background-color: #E4F7EC ;
+    float: left;
+    height: 454px;
+}
+div.floor  div[name=detail] div[name=product] div[name=side] ul li{
+    text-align: left;
+    width: 213px;
+    margin: 0px;
+    padding: 5px;
+    border-bottom: dotted thin black;
+    box-sizing: border-box;
+}
+div.floor div[name=detail] div[name=product] div[name=ddddetail]{
+    width: 950px;
+    height: 454px;
+    float: right;
+}
+div.floor div[name=detail] div[name=product] div[name=ddddetail] table tr th{
+    height: 227px;
+    width: 226px;
+    box-sizing: border-box;
+    border: dotted thin whitesmoke;
+    border-top: none;
+    border-right: none;
+    float: left;
+}
+div.floor  div[name=detail] div[name=product] div[name=ddddetail] table tr th:hover{
+    cursor: pointer;
+    box-shadow:0 5px 5px rgba(0,0,0,0.1), 0 0 10px 0 rgba(0,0,0,0.2);
+}
+div.floor div[name=detail] div[name=product] div[name=ddddetail] table tr th.otherth{
+    width: 270px;
+    border: none;
+}
+
+div[name=body] div[name=advantage]{
+    width: 1180px;
+}
+div[name=body] div[name=advantage] ul li{
+    padding:0px 30px;
+}
+div[name=body] div[name=advantage] ul li img{
+    transition: all 0.8s ease-in-out;
+}
+div[name=body] div[name=advantage] ul li img:hover{
+    transform: rotate(360deg) scale(1.1);
+}
+div[name=body] div[name=advantage] table tr{
+    width: 1180px;
+}
+div[name=body] div[name=advantage] table td {
+    font-weight: lighter;
+    font-size: small;
+    padding: 2px 50px;
+    position: relative;
+}
+div[name=body] div[name=advantage] table td:hover{
+    color: blue;
+}
+div[name=body] div[name=advantage] table td[name=title]{
+    font-weight: inherit;
+    font-size: inherit;
+    padding-bottom: 10px;
+}
+div[name=body] div[name=advantage] table td[name=contract] div#abc{
+    width: 200px;
+    height: 223px;
+}
+div[name=body] div[name=advantage] table td[name=contract] div#abc a{
+    position: absolute;
+    right: 0px;
+}
+body footer{
+    width: 1180px;
+    //height: 100px;
+    border:thin black dotted;
+    margin:5px auto;
+}
+body footer ul li{
+    margin: 0px 10px;
+}

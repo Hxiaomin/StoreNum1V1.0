@@ -1,0 +1,216 @@
+body div[name=body]{
+    width: 1180px;
+    margin-bottom: 50px;
+}
+body div[name=body] nav{
+    width: 1178px;
+    height: 30px;
+    border-bottom: red solid;
+}
+body div[name=body] nav ul{
+    float: left;
+    width: 1178px;
+}
+body div[name=body] nav ul li{
+    padding: 0px 10px;
+    height: 30px;
+    box-sizing: border-box;
+    float: left;
+}
+body div[name=body] nav ul li a{
+    font-size: inherit;
+    font-weight: inherit;
+}
+body div[name=body] nav ul li#header {
+    padding:5px 20px 0px;
+    background-color: #FF3c3c;
+}
+body div[name=body] nav ul li#header a{
+    color: whitesmoke;
+}
+
+body div[name=body] nav ul li#footer{
+    float: right;
+    font-size: small;
+}
+body div[name=body] nav ul li#footer img{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+body div[name=body] nav ul li#footer a {
+    vertical-align: middle;
+    font-size: small;
+    font-weight: lighter;
+}
+body div[name=body] div[name=directory]{
+    margin-top: 10px;
+    float: left;
+}
+body div[name=body] div[name=directory] ul li a{
+    font-size: small;
+}
+body div[name=body] div[name=directory] ul li[name=brand] a{
+    color:#FF1015;
+    font-style: italic;
+}
+
+body div[name=body] div[name=mainInfo]{
+    width: 1180px;
+}
+body div[name=body] div[name=mainInfo] div[name=order]{
+    width: 715px;
+    box-sizing: border-box;
+    position: relative;
+    height: 450px;
+}
+body div[name=body] div[name=mainInfo] div[name=order] ul[name=para] li{
+    border: thin solid whitesmoke;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+body div[name=body] div[name=mainInfo] div[name=order] ul[name=para]  li img{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+body div[name=body] div[name=mainInfo] div[name=order] ul[name=para]  li:hover{
+    border: solid red thin;
+    cursor: pointer;
+}
+body div[name=body] div[name=mainInfo] div[name=order] ul[name=operation]  li{
+    padding: 0px 10px;
+}
+body div[name=body] div[name=mainInfo] div[name=order] div[name=take]{
+    width: 280px;
+    height: 45px;
+}
+body div[name=body] div[name=mainInfo] div[name=order] div[name=take] div[name=amount]{
+    position: relative;
+    width: 90px;
+    height: 44px;
+    float: left;
+    border: thin solid silver;
+}
+body div[name=body] div[name=mainInfo] div[name=detail]{
+    width: 1180px;
+    padding-left: 20px;
+}
+body div[name=body] div[name=suit]{
+    width: 980px;
+    float: left;
+    border: thin solid whitesmoke;
+    margin-bottom: 10px;
+}
+body div[name=body] div[name=suit] div[name=head]{
+    height: 30px;
+    background-color: whitesmoke;
+    width: 978px;
+}
+body div[name=body] div[name=suit] div[name=head] span{
+    line-height: 30px;
+    display: inline-block;
+    background-color: white;
+    border-top: solid red;
+    float: left;
+    width: 100px;
+}
+
+body div[name=body] div[name=suit] dd{
+    /*display: inline-block;*/
+    width: 60px;
+    height: 156px;
+    float: left;
+    padding-top: 60px;
+}
+body div[name=body] div[name=suit] dt[name=result]{
+    padding: 0px;
+    height: 176px;
+    float: left;
+}
+body div[name=body] div[name=suit] dt{
+    /*display: inline-block;*/
+    padding: 10px 20px;
+    float: left;
+}
+body div[name=body] div[name=productPara]{
+    width: 980px;
+}
+body div[name=body] div[name=productPara] div[name=head]{
+    background-color: whitesmoke;
+    width: 980px;
+}
+body div[name=body] div[name=productPara] div[name=head] ul{
+    float: left;
+}
+body div[name=body] div[name=productPara] div[name=head] ul li.highlight{
+    background-color: white;
+    border-top: red solid;
+}
+body div[name=body] div[name=productPara] div[name=properties]{
+    width: 980px;
+    padding-left: 15px;
+    margin: 20px 0px;
+}
+body div[name=body] div[name=productPara] div[name=properties] table tr{
+    text-align: left;
+}
+body div[name=body] div[name=productPara] div[name=properties] table tr td{
+    padding: 5px 20px;
+}
+body div[name=body] div[name=productPara] div[name=detail]{
+    overflow: hidden;
+}
+body div[name=body] div[name=productPara] div[name=comment]{
+    overflow: hidden;
+    width: 980px;
+    border: solid whitesmoke thin;
+}
+body div[name=body] div[name=productPara] div[name=comment] div.tablec{
+    width: 950px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: solid thin whitesmoke;
+}
+body div[name=body] div[name=productPara] div[name=comment] div[name=introduce]{
+    width: 220px;
+    height: 70px;
+    font-size: small;
+    float: left;
+    text-align: left;
+    line-height: 20px;
+    padding:0px 40px;
+    margin: 0px 40px;
+    border-left: thin solid whitesmoke;
+    border-right: thin solid whitesmoke;
+}
+body div[name=body] div[name=productPara] div[name=comment] ul[name=commentDetail]{
+    text-align: left;
+    width: 980px;
+}
+body div[name=body] div[name=productPara] div[name=comment] ul[name=commentDetail] li{
+    display: block;
+}
+body div[name=body] div[name=productPara] div[name=comment] ul[name=commentDetail] li table{
+    width: 980px;
+}
+body div[name=body] div[name=productPara] div[name=comment] ul[name=commentDetail] li table tr td[name=user]{
+    width: 170px;
+}
+tr td[name=size]{
+    width: 200px;
+}
+tr td[name=comment]{
+    width: 300px;
+}
+
+body div[name=body] div[name=productPara] div[name=comment] div[name=foot] input{
+    padding: 5px;
+    background-color: white;
+}
